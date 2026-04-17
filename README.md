@@ -10,7 +10,6 @@ A complete machine learning pipeline predicting diabetes onset in female patient
 **Size:** 768 rows × 9 columns (8 features + 1 binary target)
 
 ## Project Structure
-\```
 ml-diabetes-project/
 ├── data/
 │   ├── raw/              # Original downloaded dataset
@@ -26,7 +25,6 @@ ml-diabetes-project/
 ├── reports/              # All exported figures and tables
 ├── requirements.txt
 └── README.md
-\```
 
 ## Installation and Usage
 
@@ -45,12 +43,10 @@ pip install -r requirements.txt
 ```
 
 **3. Run notebooks in order:**
-\```
 notebooks/T1_EDA.ipynb
 notebooks/T2_Supervised.ipynb
 notebooks/T3_Unsupervised.ipynb
 notebooks/T4_Ensemble.ipynb
-\```
 
 Each notebook reads from and writes to the `data/` folder automatically.
 
